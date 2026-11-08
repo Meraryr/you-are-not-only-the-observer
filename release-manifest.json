@@ -1,0 +1,158 @@
+{
+  "project": "Meraryr/you-are-not-only-the-observer",
+  "publish_root": "docs",
+  "sources": [
+    {
+      "path": ".gitattributes",
+      "bytes": 47,
+      "sha256": "815c20b0c43b886cf52dfec63697a58d0d79ef4dd044fbea4d330d2092c21d8b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 58,
+      "sha256": "ffc891dbd640be54e32039d5e08f42a39d1b78daced94c134e8d967db227f581"
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "bytes": 844,
+      "sha256": "cb32dc636c2d24e638b0463ff4286c57729dce0cb24b2ab28427013d3789a36b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2738,
+      "sha256": "51d4d345a3240f171a217961b76acd8a543ec0ea8520392b63be0f118c250c0b"
+    },
+    {
+      "path": "build.py",
+      "bytes": 2712,
+      "sha256": "fcca039569467490132a6dcd9789c451439402c837279eda228c21c3f7e65446"
+    },
+    {
+      "path": "essay.md",
+      "bytes": 6657,
+      "sha256": "c1ecdf3e963600c8af6209672c1f76d3aad40316cd7fd4fa8ed046c0dc6b5313"
+    },
+    {
+      "path": "release_manifest.py",
+      "bytes": 1381,
+      "sha256": "0f7487d7d523f56a04bc8aeed2f411ba1cfcb2e6cfbd3f01a624b794523bad8d"
+    },
+    {
+      "path": "source-integrity.json",
+      "bytes": 139,
+      "sha256": "e64163ad90e531e1a728e18906b9b8fe85db95db1848bbf28f8a0de936bf0d6e"
+    },
+    {
+      "path": "template.html",
+      "bytes": 8161,
+      "sha256": "a4e1aa95deffe09b5cf0170484d765f3f184908cc94184669f1e54f7a9535609"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 3479,
+      "sha256": "293edfe4e076585ae9982e9302ade377b5400dbd29f902ec8a22b6debfbcc60d"
+    }
+  ],
+  "production": [
+    {
+      "path": "docs/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/assets/LATIN-MODERN-LICENSE.txt",
+      "bytes": 7335,
+      "sha256": "5e385a99d447892ae5e2010e60b3cd45fe395d4fc93394b643f1b5591b53fd50"
+    },
+    {
+      "path": "docs/assets/birdsong-compact.webp",
+      "bytes": 54976,
+      "sha256": "8ab25f8b84f2f4776a66ab446789e12fcc8c8928cb291768a6ab1b696ffd63da"
+    },
+    {
+      "path": "docs/assets/birdsong.webp",
+      "bytes": 106014,
+      "sha256": "83b999a940a0253cb53294074786c9c08f038e1f03ad1e63c0674608b1993ab5"
+    },
+    {
+      "path": "docs/assets/decay-compact.webp",
+      "bytes": 122994,
+      "sha256": "ee9614e2beaa781308c42ec0225f968df00bea3101ad0744853dc51e083fec3f"
+    },
+    {
+      "path": "docs/assets/decay.webp",
+      "bytes": 241938,
+      "sha256": "8c5e40a37d2fe8bc1f9ccea654b49a91a62234fac5bb93dbd85c1bc204fe5a37"
+    },
+    {
+      "path": "docs/assets/display.woff",
+      "bytes": 54424,
+      "sha256": "2ed106f89a4d7e117d11a90d062189073c9de74ac4a4769fbac5505f3d017e7f"
+    },
+    {
+      "path": "docs/assets/italic.woff",
+      "bytes": 57088,
+      "sha256": "0f9e663670ad4e28d9eae4e289238cff22e5780b0f8eb9910a374f0ae76842c3"
+    },
+    {
+      "path": "docs/assets/ocean-compact.webp",
+      "bytes": 74992,
+      "sha256": "0912ca8575c549a0a84a42afa11a19be93bb6ed6cd84885b5848332ea3e37015"
+    },
+    {
+      "path": "docs/assets/ocean.webp",
+      "bytes": 163766,
+      "sha256": "b2b44bfe2ea2bce997e6720450c57817f40342699327e8e001e07693106255c9"
+    },
+    {
+      "path": "docs/assets/reading.woff",
+      "bytes": 54364,
+      "sha256": "3bf0fec4117da0f8cc37042a44dc18be9181047fe79c35063a61285aca1f0976"
+    },
+    {
+      "path": "docs/assets/silk-compact.webp",
+      "bytes": 83482,
+      "sha256": "3be3559705ff3ffefb081ba1528e4fce649f6a4619f1c73f91a9537dae826995"
+    },
+    {
+      "path": "docs/assets/silk.webp",
+      "bytes": 138758,
+      "sha256": "08dd90ca730e1ddcfaea3f6975eeeb4a2b13f17f8d972ca02b41ee15ab497c67"
+    },
+    {
+      "path": "docs/assets/umwelt-compact.webp",
+      "bytes": 36528,
+      "sha256": "f7c7326798681363ad2a59817d67ecbe9fbaa89ad504028659a5ff695da8a2c2"
+    },
+    {
+      "path": "docs/assets/umwelt.webp",
+      "bytes": 71686,
+      "sha256": "8736fddcdbcc2b4319fbc466e1a86236155aa60636603f74e79524b1d0183850"
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 18095,
+      "sha256": "30206dd1803e23d7ceaa2bf4b14b1ec0aabe4a8c2ab57eab593aaee752ca00f7"
+    },
+    {
+      "path": "docs/journey.css",
+      "bytes": 9279,
+      "sha256": "534a556be81d6da321c13bef9b3951dba20b9cece15dd4ee59f6924ec080e8ff"
+    },
+    {
+      "path": "docs/journey.js",
+      "bytes": 2820,
+      "sha256": "da0db0e5b80fab9402b4e091b3074622ad45c42087d8c1674b6661f20d801892"
+    },
+    {
+      "path": "docs/script.js",
+      "bytes": 2259,
+      "sha256": "cc2ac7f339a47c8648781565d8182ba9690868e84d779d21010906c431d87d7c"
+    },
+    {
+      "path": "docs/styles.css",
+      "bytes": 7766,
+      "sha256": "c082b2db7681542458f9131af4ed6512f998df19c4bd6f3d630766969c34437b"
+    }
+  ]
+}

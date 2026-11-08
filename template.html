@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10110b">
+  <meta name="author" content="Merary Rodríguez">
+  <meta name="description" content="A literary experience by Merary Rodríguez.">
+  <title>You Are Not Only the Observer — Merary Rodríguez</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="journey.css">
+  <link rel="preload" href="assets/display.woff" as="font" type="font/woff" crossorigin>
+  <script src="script.js" defer></script>
+  <script src="journey.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip" href="#essay">Skip to essay</a>
+  <div class="experience">
+    <div class="scene" aria-hidden="true">
+      <div class="scene-plane">
+        <picture>
+          <source media="(max-width: 640px)" srcset="assets/silk-compact.webp">
+          <img src="assets/silk.webp" width="1536" height="1024" alt="" fetchpriority="high">
+        </picture>
+        <div class="soft-plane foreground"></div>
+        <div class="soft-plane recess"></div>
+      </div>
+      <div class="scene-shade"></div>
+      <div class="reading-shade"></div>
+      <div class="world">
+        <div class="world-layer" data-world="birdsong">
+          <div class="world-plane">
+            <template>
+              <picture>
+                <source media="(max-width: 820px)" srcset="assets/birdsong-compact.webp">
+                <img src="assets/birdsong.webp" width="1536" height="1024" alt="">
+              </picture>
+            </template>
+            <div class="world-recess"></div>
+          </div>
+          <div class="world-veil"></div>
+        </div>
+        <div class="world-layer" data-world="umwelt">
+          <div class="world-plane">
+            <template>
+              <picture>
+                <source media="(max-width: 820px)" srcset="assets/umwelt-compact.webp">
+                <img src="assets/umwelt.webp" width="1536" height="1024" alt="">
+              </picture>
+            </template>
+            <div class="world-recess"></div>
+          </div>
+          <div class="world-veil"></div>
+        </div>
+        <div class="world-layer" data-world="decay">
+          <div class="world-plane">
+            <template>
+              <picture>
+                <source media="(max-width: 820px)" srcset="assets/decay-compact.webp">
+                <img src="assets/decay.webp" width="1536" height="1024" alt="">
+              </picture>
+            </template>
+          </div>
+          <div class="world-veil"></div>
+        </div>
+        <div class="world-layer" data-world="ocean">
+          <div class="world-plane">
+            <template>
+              <picture>
+                <source media="(max-width: 820px)" srcset="assets/ocean-compact.webp">
+                <img src="assets/ocean.webp" width="1536" height="1024" alt="">
+              </picture>
+            </template>
+          </div>
+          <div class="world-veil"></div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section class="cover" aria-labelledby="title">
+        <header class="masthead">
+          <span class="imprint">More Human Than Human</span>
+          <button id="motion" type="button" aria-pressed="false" hidden>Reduce motion</button>
+        </header>
+        <div class="cover-copy">
+          <h1 id="title">You Are Not Only <span>the Observer</span></h1>
+          <p class="byline">Merary Rodríguez</p>
+        </div>
+        <a class="scroll-link" href="#essay">Begin reading <span aria-hidden="true">↓</span></a>
+      </section>
+      <article id="essay" aria-labelledby="title" tabindex="-1">
+        <div class="opening">
+          <div class="narrative">
+            {{opening}}
+          </div>
+          <div class="interruption">
+            {{interruption}}
+          </div>
+          <div class="narrative approach">
+            {{approach}}
+          </div>
+        </div>
+        <section class="turn" id="reversal" aria-label="The reversal">
+          {{reversal}}
+          <p class="sr-only">In the same silk that held the dew, a winged insect is held by several taut strands.</p>
+          <noscript><img class="static-reveal" src="assets/silk.webp" width="1536" height="1024" alt="A fly caught in the same dew-covered silk." loading="lazy"></noscript>
+        </section>
+        <div class="recognition">
+          {{recognition}}
+        </div>
+        <section class="chapter" id="birdsong" aria-label="Birdsong">
+          <p class="sr-only">A singing bird faces a second bird on a branch across a gap.</p>
+          <noscript><img class="journey-still" src="assets/birdsong.webp" width="1536" height="1024" alt="" loading="lazy"></noscript>
+          <div class="chapter-copy">
+            {{birdsong}}
+          </div>
+        </section>
+        <section class="chapter" id="umwelt" aria-label="Different perceptual worlds">
+          <p class="sr-only">A mosquito rests on a twig beside the edge of a person's sleeve and bare arm.</p>
+          <noscript><img class="journey-still" src="assets/umwelt.webp" width="1536" height="1024" alt="" loading="lazy"></noscript>
+          <div class="chapter-copy">
+            {{umwelt_arrival}}
+            <div class="sense-pairs">
+              {{senses}}
+            </div>
+            {{umwelt}}
+          </div>
+        </section>
+        <section class="chapter" id="decay" aria-label="The fallen log">
+          <p class="sr-only">Shelf fungi, white filaments, a woodlouse, and a seedling share a fallen log.</p>
+          <noscript><img class="journey-still" src="assets/decay.webp" width="1536" height="1024" alt="" loading="lazy"></noscript>
+          <div class="chapter-copy">
+            {{decay}}
+            <div class="forest-pause">
+              {{forest}}
+            </div>
+          </div>
+        </section>
+        <section class="chapter" id="ocean" aria-label="The ocean after dark">
+          <p class="sr-only">Electric blue speckles trace the disturbed lip of a wave as it breaks in the dark.</p>
+          <noscript><img class="journey-still" src="assets/ocean.webp" width="1536" height="1024" alt="" loading="lazy"></noscript>
+          <div class="chapter-copy">
+            {{ocean}}
+            <div class="ocean-pause">
+              {{ocean_pause}}
+            </div>
+          </div>
+        </section>
+        <section class="chapter" id="return" aria-label="Return to morning">
+          <p class="sr-only">The opening web returns with its luminous dew and the trapped fly visible together.</p>
+          <noscript><img class="journey-still" src="assets/silk.webp" width="1536" height="1024" alt="" loading="lazy"></noscript>
+          <div class="chapter-copy">
+            {{return}}
+          </div>
+          <div class="finale">
+            {{final}}
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer class="endnote">
+      <a href="#top">Return to the beginning <span aria-hidden="true">↑</span></a>
+      <details class="research-notes">
+        <summary>Research notes &amp; references</summary>
+        <p>Scientific background to the essay. The visual environment is an artistic interpretation.</p>
+        <ul>
+          <li>Jakob von Uexküll. <a href="https://www.upress.umn.edu/9780816659005/a-foray-into-the-worlds-of-animals-and-humans/"><cite>A Foray into the Worlds of Animals and Humans</cite></a>. Originally published in German in 1934. English translation by Joseph D. O’Neil, University of Minnesota Press, 2010.</li>
+          <li>McMeniman et al. (2014). <a href="https://pubmed.ncbi.nlm.nih.gov/24581501/">Multimodal integration of carbon dioxide and other sensory cues drives mosquito attraction to humans</a>.</li>
+          <li>Huang, Ryderheim, and Kiørboe (2024). <a href="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2435.14488">Revisiting the burglar alarm hypothesis: A behavioural cascade mediated by dinoflagellate bioluminescence</a>. <cite>Functional Ecology</cite>. DOI 10.1111/1365-2435.14488.</li>
+        </ul>
+      </details>
+    </footer>
+  </div>
+</body>
+</html>
